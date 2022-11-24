@@ -10,9 +10,15 @@ public class Runme{
     public Screen(){
       screen = new char[6][50];
     }
+
+    public void rotR(int i){
+      
+    }
+
   }
 
   public static void part1(Scanner in){
+    System.out.println("Test");
   }
 
   public static void part2(Scanner in){
@@ -25,7 +31,7 @@ public class Runme{
     try{
       f = new File("input.txt");
       in = new Scanner(f);
-      //part1(in);
+      part1(in);
       f = new File("input.txt");
       in = new Scanner(f);
       part2(in);
